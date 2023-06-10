@@ -18,6 +18,7 @@ body {
     background-color: azure;
     color: var(--body);
     transition: .3s all ease-in;
+    overflow: hidden;
 }
 
 .card:hover {
