@@ -18,7 +18,6 @@ body {
     background-color: azure;
     color: var(--body);
     transition: .3s all ease-in;
-    overflow: hidden;
 }
 
 .card:hover {
@@ -115,7 +114,7 @@ a {
 #btn1 {
     width: 200px;
     padding: 5px 40px;
-    font-size: 1.5rem;
+    font-size: 16px;
     font-family: 'Kanit', sans-serif;
     transition: 0.5s all ease;
     border: 2px solid green;
