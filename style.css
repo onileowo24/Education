@@ -14,10 +14,8 @@ body {
     font-family: 'Lato', sans-serif;
     padding: 0;
     margin: 0;
-    line-height: 1.7;
     background-color: azure;
     color: var(--body);
-    transition: .3s all ease-in;
 }
 
 .card:hover {
@@ -33,6 +31,7 @@ a {
 .navbar {
     background-color: azure;
     box-shadow: var(--box-shadow);
+    overflow: hidden;
 }
 
 .navbar span {
@@ -80,6 +79,7 @@ a {
     background-attachment: fixed;
     position: relative;
     z-index: 2;
+    overflow: hidden;
 
 
 }
@@ -131,6 +131,7 @@ a {
 #services {
     margin-top: 50px;
     margin-bottom: 100px;
+    overflow: hidden;
 }
 
 #serve h2 {
@@ -178,6 +179,7 @@ a {
 #pricing {
     margin-top: 100px;
     margin-bottom: 100px;
+    overflow: hidden;
 }
 
 .card-body {
@@ -190,6 +192,9 @@ a {
     letter-spacing: 1.5;
     font-weight: 550;
     cursor: pointer;
+}
+#team{
+    overflow: hidden;
 }
 
 .card-title:hover {
@@ -287,6 +292,7 @@ a {
 
 #courses {
     margin-top: 100px;
+    overflow: hidden;
 }
 #about{
     margin-top: 50px;
