@@ -321,6 +321,7 @@ a {
 #awards {
     margin-top: 100px;
     margin-bottom: 100px;
+    overflow: hidden;
 }
 
 #award-items i {
@@ -347,6 +348,7 @@ a {
     background-attachment: fixed;
     position: relative;
     z-index: 2;
+    overflow: hidden;
 
 
 }
@@ -410,6 +412,9 @@ form input.form-control{
     border-radius: 0;
     background-color: rgba(0, 0,0, 0.02);
    }
+   footer{
+    overflow: hidden;
+   }
 
 
 #foot h6 {
@@ -420,6 +425,19 @@ form input.form-control{
 
 #foot span {
     color: green;
+}
+@media(max-width:1024px){
+    .hero h2 {
+        font-size: 50px;
+        font-weight: 600;
+    }
+    .hero p {
+        font-size: 15px;
+        font-weight: 300;
+    }
+
+
+
 }
 
 @media(max-width:768px) {
